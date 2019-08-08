@@ -1,1 +1,1 @@
-#import "QRScanner.h"
+#import <Cordova/CDV.h>
