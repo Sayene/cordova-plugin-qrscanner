@@ -555,6 +555,10 @@ module.exports = function(){
     success(calcStatus());
   }
 
+  function setBackgroundColor(color){
+
+  }
+
   return {
       prepare: prepare,
       show: show,
@@ -568,6 +572,7 @@ module.exports = function(){
       useCamera: useCamera,
       openSettings: openSettings,
       getStatus: getStatus,
-      destroy: destroy
+      destroy: destroy,
+      setBackgroundColor:setBackgroundColor
   };
 };

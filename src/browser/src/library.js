@@ -16,7 +16,8 @@ function QRScanner() {
       useCamera: internal.useCamera,
       openSettings: internal.openSettings,
       getStatus: internal.getStatus,
-      destroy: internal.destroy
+      destroy: internal.destroy,
+      setBackgroundColor: internal.setBackgroundColor
   };
 
   // always returns an executable function for use by the internal component
