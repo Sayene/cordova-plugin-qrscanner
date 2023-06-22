@@ -205,7 +205,7 @@ public class QRScanner extends CordovaPlugin implements BarcodeCallback {
         cordova.getThreadPool().execute(new Runnable() {
           public void run() {
             try {
-              String color = args.getStringt(0);
+              String color = args.getString(0);
               setBackgroundColor(color);
             } catch (Exception e) {
               // TODO: handle exception
