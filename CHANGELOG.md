@@ -2,10 +2,9 @@
 
 * FIX android:
   * change compile to implementation in gradle file
-  * fix background colors
+  * added setBackgroundColor(String color) - to set background that is restored after hide(); if not set, deafult color is black;
 * FIX iOS:
   * updated to switft 4
-
 <a name="3.0.1"></a>
 ## [3.0.1](https://github.com/bitpay/cordova-plugin-qrscanner/compare/2.6.0...3.0.1) (2019-03-29)
 
