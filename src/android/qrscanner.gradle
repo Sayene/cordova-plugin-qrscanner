@@ -4,9 +4,8 @@ repositories {
 
 dependencies {
     implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
-    implementation 'org.beryx:awt-color-factory:1.0.1'
 }
 
 android {
-    buildToolsVersion '23.0.2' // Older versions may give compile errors
+    buildToolsVersion '34.0.0'
 }

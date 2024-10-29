@@ -1,3 +1,19 @@
+## [3.0.3](2024-10-29)
+
+* android
+  * qrscanner.gradle:
+    * buildToolsVersion: up from 23.0.2 => 34.0.0
+    * removed 'org.beryx:awt-color-factory:1.0.1' dependency
+  * QRScanner.java
+    * added permissions: Manifest.permission.READ_MEDIA_IMAGES, Manifest.permission.READ_MEDIA_VIDEO;
+
+* apple
+  * QRScanner.swift:
+    * handling additional metadataObjectTypes beside qr
+
+* plugin.xml
+  * added permissions: READ_MEDIA_IMAGES, READ_MEDIA_VIDEO
+
 ## [3.0.2](2023-06-22)
 
 * FIX android:
