@@ -1,4 +1,9 @@
-## [3.0.3](2024-10-29)
+## [3.0.4](2024-11-12)
+
+* android
+  * reverted: removed unnecessary permissions: Manifest.permission.READ_MEDIA_IMAGES, Manifest.permission.READ_MEDIA_VIDEO;
+
+## [3.0.4](2024-10-29)
 
 * android
   * qrscanner.gradle:
