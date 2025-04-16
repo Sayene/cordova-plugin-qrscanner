@@ -1,4 +1,4 @@
-## [3.0.4](2024-11-12)
+## [3.0.5](2025-04-16)
 
 * android
   * reverted: removed unnecessary permissions: Manifest.permission.READ_MEDIA_IMAGES, Manifest.permission.READ_MEDIA_VIDEO;

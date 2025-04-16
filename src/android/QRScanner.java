@@ -43,7 +43,7 @@ public class QRScanner extends CordovaPlugin implements BarcodeCallback {
   private boolean showing = false;
   private boolean prepared = false;
   private int currentCameraId = Camera.CameraInfo.CAMERA_FACING_BACK;
-  private String[] permissions = {Manifest.permission.CAMERA, Manifest.permission.READ_MEDIA_IMAGES, Manifest.permission.READ_MEDIA_VIDEO};
+  private String[] permissions = {Manifest.permission.CAMERA};
   // Preview started or paused
   private boolean previewing = false;
   private BarcodeView mBarcodeView;
