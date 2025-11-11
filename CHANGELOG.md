@@ -1,7 +1,14 @@
+## [3.0.6](2025-11-11)
+
+* android
+  * qrscanner.gradle:
+    * buildToolsVersion: up from 34.0.0 => 35.0.0
+
 ## [3.0.5](2025-04-16)
 
 * android
   * reverted: removed unnecessary permissions: Manifest.permission.READ_MEDIA_IMAGES, Manifest.permission.READ_MEDIA_VIDEO;
+  git commit -m "revert: 3.0.5 removed read media, read images permissons"
 
 ## [3.0.4](2024-10-29)
 
