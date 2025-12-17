@@ -1,5 +1,6 @@
 import Foundation
 import AVFoundation
+import WebKit
 
 @objc(QRScanner)
 class QRScanner : CDVPlugin, AVCaptureMetadataOutputObjectsDelegate {
@@ -270,7 +271,9 @@ class QRScanner : CDVPlugin, AVCaptureMetadataOutputObjectsDelegate {
         if (typeMatched && found.stringValue != nil) {
             scanning = false
             let pluginResult = CDVPluginResult(status: CDVCommandStatus.ok, messageAs: found.stringValue ?? "")
-            commandDelegate!.send(pluginResult, callbackId: nextScanningCommand?.callbackId)
+            if let callbackId = nextScanningCommand?.callbackId {
+                commandDelegate!.send(pluginResult, callbackId: callbackId)
+            }
             nextScanningCommand = nil
         }
     }

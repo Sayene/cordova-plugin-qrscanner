@@ -1,3 +1,8 @@
+## [3.0.8](2025-12-17)
+
+* iOS
+  * more fixes for compability with cordova-ios 8.0.0
+
 ## [3.0.7](2025-12-17)
 
 * iOS
