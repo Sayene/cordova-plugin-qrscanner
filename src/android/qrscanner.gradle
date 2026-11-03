@@ -1,11 +1,7 @@
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
     implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
-}
-
-android {
-    buildToolsVersion '35.0.0'
 }
